@@ -1,0 +1,17 @@
+#mdw-main-header {
+  top: 0;
+  width: 100%;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+#mdw-main-header.slide-up {
+  transform: translateY(-100%);
+}
+
+#mdw-main-header.slide-down {
+  transform: translateY(0);
+}
+
+#mdw-main-header.mdw__header_fixed {
+  position: fixed;
+}
